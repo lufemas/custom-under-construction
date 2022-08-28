@@ -8,6 +8,7 @@ window.onload = ()=>{
   for (const [key, value] of params) {
     if( key == 'logo') {
       if(!!value) $('#logo').setAttribute('src', value);
+      $('#'+key).style.display = 'inline-block';
       continue
     };
     if(!!value){
