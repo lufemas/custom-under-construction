@@ -1,0 +1,29 @@
+.link-icon, .link-icon-2x {
+  width: 1em;
+  margin-right: .3em;
+  margin-bottom: -.125em;
+}
+
+.link-icon-2x {
+  width: 2em;
+}
+
+.link-icon-3x {
+  width: 3em;
+  margin-bottom: -.25em;
+
+}
+
+header{
+  text-align: right;
+}
+
+@media (prefers-color-scheme: dark) {
+  .invert-dark{
+    filter: invert(1);
+  }
+
+  a{
+    filter: brightness(1);
+  }
+}

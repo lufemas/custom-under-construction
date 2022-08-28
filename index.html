@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/shared.css">
+  <title>Under Construction Site Generator</title>
+</head>
+
+<body>
+  <header>
+    <a target="_blank" href="https://github.com/lufemas/binary-tree-jr">
+      <img src="./images/github-logo.svg" class="link-icon invert-dark">Luis.Maschietto
+    </a>
+  </header>
+  <h1>"Under Construction" Page Generator</h1>
+
+  <form action="/under-construction.html" method="get">
+    <label for="title">
+      <h3>Title</h3>
+    </label>
+    <input type="text" name="title" id="title" value="This Website" required>
+    <label for="logo">
+      <h3>Logo URL</h3>
+    </label>
+    <input type="text" name="logo" id="logo">
+    <label for="sub-title">
+      <h3>Sub Title</h3>
+    </label>
+    <input type="text" name="sub-title" id="sub-title" value="...is under construction" required>
+    <label for="info">
+      <h3>Information</h3>
+    </label>
+    <textarea name="info" id="info" cols="50" rows="10"></textarea>
+    <label for="email">
+      <h3>Contact email</h3>
+    </label>
+    <input type="email" name="email" id="email">
+    <label for="tel">
+      <h3>Contadct Phone</h3>
+    </label>
+    <input type="tel" name="tel" id="tel">
+
+    <input type="submit" value="Generate">
+  </form>
+  <script src="./js/index.js"></script>
+
+  <footer>
+    <a href="https://github.com/kognise/water.css" target="_blank">
+      <img src="https://raw.githubusercontent.com/kognise/water.css/master/assets/logo.svg" alt="watercss" class="link-icon-2x">
+      Powered by Water.css
+    </a>
+  </footer>
+</body>
+
+</html>

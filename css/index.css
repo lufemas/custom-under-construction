@@ -1,0 +1,21 @@
+h1,h3, *{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  margin: 0 auto 1em auto;
+}
+
+form{
+  max-width: 80vw;
+}
+
+input, textarea{
+  min-width: 100%;
+  margin-bottom: 2em;
+}
+
+label{
+  margin-bottom: .75em;
+}

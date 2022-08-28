@@ -1,0 +1,59 @@
+html,body, *{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main * {
+  display: none;
+}
+
+body{
+  padding: 2rem;
+  text-align: center;
+}
+
+img{
+  width: auto;
+  min-height: 30vh;
+  max-height: 35vh;
+}
+
+h1{
+  margin-top: 1em;
+  font-size: 3rem;
+}
+
+h2{
+  margin-top: 1em;
+  font-size: 2rem;
+}
+
+p{
+  max-width: 75vw;
+  margin: 3em auto 0 auto;
+  font-size: 1rem;
+}
+
+address{
+  margin-top: 2em;
+  font-size: 1.25rem;
+}
+
+address a{
+  margin-top: .5em;
+  display: inline-block;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration:none;
+}
+
+footer{
+  font-size: .8em;
+  filter: brightness(.9);
+  position: absolute;
+  bottom: .5em;
+  width: 80vw;
+  left: 10vw;
+  text-align: center;
+}
