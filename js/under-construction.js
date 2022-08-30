@@ -17,6 +17,8 @@ window.onload = ()=>{
     }
   }
 
+  document.title = $('#title').innerText
+
   const tel = $('#tel').innerText;
   if(!!tel) {
     $('#tel').setAttribute('href', 'tel:'+tel)
