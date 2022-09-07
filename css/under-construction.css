@@ -46,6 +46,7 @@ address{
 }
 
 address a{
+  display: none;
   margin-top: .5em;
   font-style: normal;
   font-weight: bold;
